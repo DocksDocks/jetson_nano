@@ -5,5 +5,5 @@ sudo systemctl disable nvzramconfig \
 && sudo swapoff -a \
 && sudo mkswap /mnt/"$1"GB.swap \
 && sudo swapon /mnt/"$1"GB.swap \
-&& sudo echo "/mnt/"$1"GB.swap none swap defaults 0  0" >> /etc/fstab \
+# && sudo echo "/mnt/"$1"GB.swap none swap sw 0  0" >> /etc/fstab \
 && sudo swapon -s
