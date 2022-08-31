@@ -1,6 +1,5 @@
 sudo systemctl disable nvzramconfig
-if [ /mnt/"$1"GB.swap ]
- then
+if [ -d "/mnt/""$1""GB.swap" ]; then
  sudo swapoff -a \
  && sudo mkswap /mnt/"$1"GB.swap \
  && sudo swapon /mnt/"$1"GB.swap
