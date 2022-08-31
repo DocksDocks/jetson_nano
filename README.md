@@ -30,7 +30,11 @@ sudo sh swap_choose.sh 4
 
 You can use your ssh key to access private repositories.
 To create a new SSH Key you will click into your profile icon -> Settings -> SSH and GPG keys -> New SSH key
+
 In 'Title' you can put whatever you want - Example: Jetson Nano SD 64GB.
+
 In 'Key type' you need to select 'Authentication key'.
-And in 'Key' you will paste the ssh key generated in your jetson nano, if you went by the example of 'ssh.txt' you can grab the 'termbin.com/RANDOM_URL' random url generated and use in your device to copy and paste inside the 'Key' tab.
+
+And in 'Key' you will paste the ssh key generated in your jetson nano, if you went by the example of 'ssh.txt' you can grab the 'termbin.com/RANDOM_URL'
+random url generated and use in your device to copy and paste inside the 'Key' tab.
 
