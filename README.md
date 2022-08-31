@@ -12,7 +12,7 @@ when you have a Jetson Nano 2GB it happens automatically.
 To use this script you basically will enter the repo folder and type:
 ```
 sudo sh lxde_ldm_enable.sh
-
+```
 ## swap_choose.sh - Choose your Swap Size
 
 This script is used if you want to increase or decrease the usage of your Swap file.
@@ -24,6 +24,6 @@ sudo sh swap_choose.sh <Size in GB>
 An example would be:
 ```
 sudo sh swap_choose.sh 4
-
+```
 
 
